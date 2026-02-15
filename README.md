@@ -1,4 +1,5 @@
 # Rebekacn-01 生存框架手册 (V3.0 深度定义版)
+源于https://github.com/myrebekacn/Survival-Probability-Model-of-Open-Complex-Systems-Core-01库中 #开放性复杂生存概率模型Core-01的深度研究推理
 
 > **“世界是混沌的集合，现实是叙事对不确定性的强行固化。”**
 
