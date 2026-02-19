@@ -38,83 +38,177 @@
 
 ---
 
-## 1. 模型总览 (Model Overview)
-
-任何系统（原子、细胞、咖啡馆、文明）本质上都是一个**“测量-坍缩-固化”**的闭环。系统在**不确定性集合（$\Delta$）**中，通过特定的**叙事结构（$I$）**执行测量动作（$i$），将混沌坍缩为确定的现实。这个过程必然产生摩擦与功耗，决定了系统的生存指数（$S$）。
-
-
+# Rebekacn-01 Survival Framework: Academic Specification
+# Rebekacn-01 生存框架：学术版说明书
 
 ---
 
-## 2. 变量定义 (Variable Definitions)
-
-| 符号 | 定义 | 核心内涵 (Core Essence) |
-| :--- | :--- | :--- |
-| **$\Delta$** | **不确定性集合** | **分母项**。宇宙原始的、未经定义的混沌。包含从小到蝴蝶扇动翅膀、大到战争、经济波动、乃至宇宙常数偏移的所有可能性总和。 |
-| **$I$** | **结构/摩擦 (叙事内容)** | **分母项**。由历史坍缩形成的“确定性内容”（物理定律、法律、社会制度、经验、规则）。它是测量的基准，也是运行的内部摩擦。 |
-| **$i$** | **作用/测量 (算符)** | **动态过程**。系统依据已有的 $I$ 去介入并定义 $\Delta$ 的行为。它决定了混乱往哪个方向“变”成现实。 |
-| **$P$** | **耗散功耗 (熵增税)** | **分母项**。维持闭环运转必须支付的代价。是每一次测量、定义和抑制 $\Delta$ 过程中不可避免的能量/情绪损耗。 |
-| **$R$** | **资源 (总筹码)** | **分子项**。系统此刻可投入这场定义游戏的总筹码（能量、信息、资金、情感储备）。 |
-| **$\eta$** | **转化效率** | **分子项**。测量动作将混沌转化为秩序（而非废热或更深的混乱）的成功率。 |
-| **$S$** | **生存指数** | **结果**。$S > 1$ 系统扩张；$S = 1$ 临界生存；$S < 1$ 系统解构。 |
+**Version**: 2.0 (Formalized Version)  
+**版本**：2.0（形式化版本）  
+**Suggested Citation**: Rebekacn, R. (2026). *The Rebekacn-01 Survival Framework: A Unified Dynamical Model for Evolvable Ordered Systems*.  
+**引用建议**：Rebekacn, R. (2026). *Rebekacn-01生存框架：可演化有序系统的统一动力学模型*。  
+**Fields**: Systems Science | Complex Systems Theory | Evolutionary Dynamics | Meta-theory  
+**学科领域**：系统科学 | 复杂系统理论 | 演化动力学 | 元理论
 
 ---
 
-## 3. 核心机制：定义现实的代价 (The Mechanism)
+## Abstract / 摘要
 
-### A. 现实是如何生成的？
-系统并非生活在“真实世界”里，而是生活在自己**“测量并定义”**出来的结果里：
+This paper presents the **Rebekacn-01 Survival Framework**, a minimal variable model designed to unify the dynamics of various "evolvable ordered systems." The framework identifies six core variables—**Δ (Delta/Deviation)**, **i (Event)**, **I (Inhibition/Inertia)**, **R (Resource)**, **η (Efficiency/Realization Rate)**, and **P (Cost/Dissipation)**—asserting that these six constitute the **complete functional dimensions** of any evolvable system, whether conscious (bio-social) or unconscious (natural-physical). The core equation $$O = \frac{R \cdot \eta}{\Delta \cdot I \cdot P}$$ defines the "Order Index," characterizing a system's capacity to maintain its structure. This document elucidates the axiomatic foundation, variable definitions, dynamical closed-loop ($i \xrightarrow{I} \Delta \to \text{Result} \to I_{\text{update}}$), proof of completeness, and cross-scale applicability (from quantum fluctuations to the evolution of civilizations). By comparing it with existing theories, this paper demonstrates the meta-theoretical value of Rebekacn-01 as a "Universal Grammar of System Evolution."
 
-1. **介入混沌**：系统面对无限的 $\Delta$（不确定性集合），必须选择一种 $I$（叙事/工具）进行介入。
-2. **强制坍缩**：在 $i$ 的作用下，发散的可能性被强行固化为一行确定的事实、法律或定理。
-3. **沉淀为摩擦**：这些被固化的事实成为 $I$ 的新内容。结构每厚重一分，后续运行的摩擦力就增加一分。**定义得越多，摩擦越重。**
-
-
-
-### B. 生存能力公式
-$$S = \frac{R \times \eta}{\Delta \times I \times P}$$
-
-> **逻辑深意**：
-> 在这个框架里，$I$（结构内容）在分母。这意味着：一个系统坍缩出的“确定性”越多，其运行成本和内部摩擦就越高。文明的沉重，源于它试图定义每一个微小的不确定性。
+本文提出 **Rebekacn-01 生存框架**，一个旨在统一描述各类“可演化有序系统”动力学的最小变量模型。该框架识别出六个核心变量——**Δ（偏差）**、**i（事件）**、**I（阻滞）**、**R（资源）**、**η（兑现率）**、**P（成本）**——并断言这六者构成任何可演化系统（无论是有意识的生物-社会系统，还是无意识的自然-物理系统）的**完备功能维度**。核心方程 $$O = \frac{R \cdot \eta}{\Delta \cdot I \cdot P}$$ 定义了系统的“有序度指数”，刻画了系统维持自身结构的能力。本文阐述了该框架的公理基础、变量定义、动力学闭环（$i \xrightarrow{I} \Delta \to \text{结果} \to I_{\text{更新}}$）、完备性证明及其跨尺度适用性（从量子涨落到文明演化）。通过与现有理论的比较，本文论证了Rebekacn-01作为“系统演化通用语法”的元理论价值。
 
 ---
 
-## 4. 跨尺度分析 (Multi-scale Analysis)
+## 1. Introduction / 引言
 
-| 层面 | $\Delta$ (不确定性集合) | $I$ (选择的叙事内容/摩擦) | 精彩的定义 (The Spark) |
-| :--- | :--- | :--- | :--- |
-| **物理** | 各种可能的量子态/涨落 | 物理定律 / 宏观观测范式 | 在冷寂宇宙中强行固化出的有序结构 |
-| **社会** | 战争、蝴蝶效应、突发事件 | 法律、国际关系叙事、意识形态 | 复杂文明在对抗巨大社会摩擦时燃出的火花 |
-| **商业** | 市场黑天鹅、用户心智漂移 | 品牌文化、SOP流程、经营叙事 | 在冰冷的交易中溢出的情感连接与意义感 |
-| **个人** | 命运的随机性、他人的意志 | 认知模型、人生观、个人规则 | 灵魂在对抗命运阻力时产生的“受热”效应 |
+From the decoherence of qubits and the metabolism of single cells to organizational rigidity in corporations and the rise and fall of civilizations, various disciplines have developed sophisticated theories to describe system behaviors within their specific domains. However, does a unified dynamical grammar exist that can reveal the underlying deep structures behind these disparate phenomena?
 
----
+从量子比特的退相干、单细胞的新陈代谢，到公司的组织僵化、文明的兴衰更替，不同学科各自发展出精细的理论来描述其领域内的系统行为。然而，是否存在一种统一的动力学语法，能够揭示所有这些迥异现象背后的深层结构？
 
-## 5. 范式革命：当叙事失效 (Paradigm Shift)
+In recent years, explorations into unified frameworks have emerged. For instance, research has attempted to link non-living and living systems by focusing on persistence, survival, and evolutionary transitions. In psychology, meta-theoretical attempts to integrate stress response patterns have also surfaced. However, existing frameworks are often limited to specific fields or fail to distill a minimal yet complete set of core variables. The Rebekacn-01 Survival Framework seeks to fill this gap.
 
-当现有的 $I$（测量叙事）已经无法抑制、解释爆发的 $\Delta$（如蝴蝶效应导致的系统性崩溃、战争打破旧秩序）时：
+近年来，学界出现了对统一框架的探索。例如，有研究尝试建立连接非生命与生命系统的分析框架，关注系统的持续、生存与演化转型。心理学领域也涌现出整合应激反应模式的元理论尝试。然而，现有框架或局限于特定领域，或未能提炼出一组最小而完备的核心变量。本文提出的Rebekacn-01生存框架，旨在填补这一空白。
 
-* **解释力崩溃**：旧有的法律或道理不再能平息混乱。
-* **摩擦力锁死**：系统为了稳住局面，拼命打补丁，导致内部摩擦 $I$ 趋于无穷大，功耗 $P$ 耗尽所有资源 $R$。
-* **分母重置**：旧 $I$ 被粉碎，系统被迫抛弃沉重的旧内容，采用一种更简单、能覆盖新混沌的**新叙事**。
+The central claim of this framework is that any "evolvable ordered system"—a system capable of maintaining its structure by extracting resources from the environment and adapting to internal and external changes—can be completely characterized by six functional dimensions. These dimensions are not derived empirically but are logical necessities deduced from the concept of "evolvable order" itself.
 
-
+本框架的核心主张是：任何“可演化的有序系统”——即能够维持自身结构并随时间调整以适应环境变化的系统——其动力学均可由六个功能维度完备刻画。这六个维度并非从经验中归纳得来，而是从“演化有序性”这一概念本身演绎出的逻辑必然。
 
 ---
 
-## 6. 核心结论
+## 2. Axiomatic System / 公理体系
 
-### 精彩 vs 平庸
-* **极致平庸（蚂蚁）**：通过放弃复杂叙事（极低 $I$）来减小摩擦。它们极少去定义混沌，只是机械反应。生存率极高，但毫无“热量”。
-* **极致精彩（人类/瑞贝卡）**：选择用厚重、昂贵的叙事（爱、美、复杂的规则）去测量并定义混沌。
-* **真相**：**精彩是摩擦的副作用**。当我们试图把无限的 $\Delta$ 压缩进有限的 $I$ 时，系统产生的那个“热效应”，就是我们活着的意义。
+The framework is built upon three fundamental axioms:
+本框架基于以下三条基本公理：
+
+* **Axiom 1 (Evolvable Orderliness)**: There exists a class of systems capable of intake of resources from the environment to maintain internal structural order (resisting entropy) and making adaptive adjustments based on changes. These are termed "evolvable ordered systems."
+    **公理1（可演化有序性）**：存在一类系统，其能够从环境中摄取资源，以维持自身内部结构的有序性（对抗熵增），并能根据内外部变化进行适应性调整。此类系统称为“可演化的有序系统”。
+* **Axiom 2 (Completeness of Functional Dimensions)**: The survival and evolutionary state of any evolvable ordered system can be completely described by, and only by, a set of core functional dimensions. Adding any dimension is reducible to existing ones; removing any dimension renders the system description incomplete.
+    **公理2（功能维度完备性）**：任何可演化的有序系统，其生存与演化状态可由且仅由一组核心功能维度完备描述。增加任一维度均可被归约至已有维度，删减任一维度将导致系统无法被完整刻画。
+* **Axiom 3 (Structural Conservation)**: In all evolvable ordered systems, the functional relationships between core dimensions (i.e., the closed-loop structure and the form of the core equation) remain invariant. While the specific content of a system may change, its dynamical "grammar" is conserved.
+    **公理3（结构守恒）**：在所有可演化的有序系统中，核心维度之间的功能关系（即闭环结构与核心方程的形式）保持不变。系统的具体内容可变，但其动力学“语法”守恒。
 
 ---
 
-## 7. 使用指南 (User Guide)
+## 3. Core Variables / 核心变量
 
-1. **诊断分母**：当你感到系统跑不动了，看看是不是因为你坍缩了太多陈旧的事实（$I$），导致摩擦力太重。
-2. **警惕测量过载**：不要试图
+
+
+We define the following six variables as the "minimal functional basis" of any evolvable ordered system:
+我们定义以下六个核心变量，它们是任何可演化有序系统的“最小功能基”：
+
+| Variable / 变量 | Symbol / 符号 | Functional Definition / 功能定义 | Dimension / 量纲 | Role in System / 功能角色 |
+| :--- | :--- | :--- | :--- | :--- |
+| **Deviation / 偏差** | **Δ** | The set of uncertainties between the system's current state and the required state for order. / 当前状态与维持有序所需状态间的不确定性集合。 | Dimensionless / 无量纲 | Evolutionary Drive / Pressure Source / 演化驱动力/压力源 |
+| **Event / 事件** | **i** | The minimal unit of coupling, measurement, or interaction between the system and environment. / 系统与环境或内部发生的最小耦合/测量/互动单元。 | Dimensionless / 无量纲 | Trigger for State Update / 系统状态更新触发点 |
+| **Inhibition / 阻滞** | **I** | Internal friction/dissipation due to structural constraints when converting event info into action. / 系统转化信息时因结构限制产生的内耗。 | Dimensionless / 无量纲 | Decay Factor of Efficiency / 系统效率衰减因子 |
+| **Resource / 资源** | **R** | Stock of energy, matter, or information available to maintain order. / 可调用以维持有序状态的能量、物质、信息存量。 | **[Q]** | System "Fuel" / 系统运行的“燃料” |
+| **Realization Rate / 兑现率** | **η** | The ratio of resources effectively converted into valid action ($0 \le \eta \le 1$). / 系统将资源转化为有效行动的比例。 | Dimensionless / 无量纲 | Efficiency Coefficient / 系统的效率系数 |
+| **Cost / 成本** | **P** | The rate of dissipation required to maintain the ordered structure. / 维持有序结构必须持续支付的耗散速率。 | **[Q/T]** | "Entry Ticket" for Existence / 系统存在的“门票” |
+
+**Note**: **[Q]** represents "Quantity of Order," the base dimension anchored specifically in different fields (energy, information, capital, etc.).
+**注**：**[Q]** 表示“秩序量”，是框架约定的基本量纲，可在不同领域中具体锚定为能量、信息、资本等。
+
+---
+
+## 4. Core Dynamics / 核心动力学
+
+### 4.1 Fundamental Closed-Loop / 基本闭环
+The basic unit of dynamics is a recursive loop:
+可演化有序系统的基本动力学单元是一个递归闭环：
+
+$$i \xrightarrow{I} \Delta \to \text{Result} \to I_{\text{update}}$$
+
+1.  An **event (i)** occurs. / 一个**事件 i** 发生；
+2.  The event, constrained by the existing **structure (I)**, measures or acts upon the **possibility field (Δ)**. / 该事件在**现有结构 I** 约束下，对**可能性场 Δ** 进行测量或作用；
+3.  A **Result** is produced (new state or information). / 产生一个**结果**（新状态或信息）；
+4.  The result feeds back to update the **system structure (I)** for the next event. / 该结果反馈并**更新系统结构 I**，为下一次事件做准备。
+
+This mechanism is automatic and does not depend on conscious intent.
+此闭环不依赖于系统是否有意识，而是演化系统的自动机制。
+
+### 4.2 Order Equation / 有序度方程
+The instantaneous order of a system is defined as:
+系统的瞬时有序度由以下方程定义：
+
+$$O = \frac{R \cdot \eta}{\Delta \cdot I \cdot P}$$
+
+* **Numerator ($R \cdot \eta$)**: The "Constructive Power" extracted and converted into ordered structures.
+    **分子** ($R \cdot \eta$)：系统获取并有效转化为有序结构的“建构功率”。
+* **Denominator ($\Delta \cdot I \cdot P$)**: The "Dissipative Pressure" the system must withstand to maintain order.
+    **分母** ($\Delta \cdot I \cdot P$)：系统为维持有序必须面对的“耗散压力”。
+
+**Criteria for O**:
+* **O > 1**: System maintains long-term order; structure is stable. (**O > 1**：系统能长期维持有序，结构稳定)
+* **O ≈ 1**: System is in a critical state; any disturbance may cause instability. (**O ≈ 1**：系统处于临界状态)
+* **O < 1**: System is losing order; heading toward chaos or disintegration. (**O < 1**：系统走向混沌或解体)
+
+For goal-oriented systems (organisms, organizations), **O** is interpreted as **Survival Probability (S)**.
+对于目标导向系统，**O** 可解释为**生存概率 S**。
+
+---
+
+## 5. Proof of Completeness / 完备性证明
+
+### 5.1 Subtraction Test / 删减测试
+Removing any variable causes the system to lose the essential characteristics of an "evolvable ordered system":
+若移除任一变量，系统将失去“可演化有序系统”的基本特征：
+* **No Δ**: No pressure to respond; loss of evolutionary drive. (无Δ：失去演化动力)
+* **No I**: No "stuckness" but no "selection"; evolution becomes a mechanical process. (无I：演化成为机械过程)
+* **No R**: No energy source; unable to maintain order. (无R：无法维持有序)
+* **No η (η=0)**: Resources cannot be converted; efficiency is zero. (无η：系统效率为零)
+* **No P**: No cost for existence; violates the Second Law of Thermodynamics. (无P：违背热力学第二定律)
+
+### 5.2 Addition Test / 添加测试
+Any proposed "6th variable" can be categorized into the existing six:
+任何声称的“第六变量”均可被归入现有六变量之一：
+* **Memory / 记忆** $\to$ **I** (Sedimentation of past experience / 过去经验的沉积)
+* **Information / 信息** $\to$ **R** (as a resource) or **I** (as a constraint)
+* **Culture / 文化** $\to$ **I** (Solidified rules / 固化规则) or **R**
+* **Randomness / 随机性** $\to$ **Δ** (Environmental uncertainty / 环境不确定性)
+* **Time / 时间** $\to$ Implicit in the rates of **P** and **η**. (体现于速率中)
+
+---
+
+## 6. Cross-Scale Mapping / 跨尺度映射与应用
+
+| System / 系统 | Δ (Deviation) | i (Event) | I (Inhibition) | R (Resource) | η (Efficiency) | P (Cost) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Quantum / 量子** | Wavefunction Uncertainty | Measurement | Decoherence | Total Qubits | Gate Fidelity | Cooling Energy |
+| **Cellular / 细胞** | Env. Stress | Metabolic Rxn | Pathway Bottleneck | ATP / Enzymes | Metabolic Eff. | Basal Metabolism |
+| **Psychological / 心理** | Goal Gap | Decision | Cognitive Bias | Attention | Execution Rate | Mental Energy |
+| **Business / 商业** | Competition | Strategy | Bureaucracy | Capital / Talent | Execution Power | OpEx |
+| **Civilization / 文明** | Internal/Ext Threats | Policy / Reform | Institutional Rigidity | Population / Res. | Governance Eff. | Maintenance Cost |
+
+---
+
+## 7. Dialogue with Existing Theories / 与现有理论的对话
+
+| Theory / 理论 | Relation to Rebekacn-01 / 与本框架关系 |
+| :--- | :--- |
+| **Dynamic Survival Coding (DSC)** | **Δ** maps to "new threats"; **I** maps to switching costs between generalization/specialization. |
+| **Resilience Framework** | **R, η, P** correlate with resilience factors like vision, problem-solving, and social capital. |
+| **Non-Living/Living Link** | Rebekacn-01 provides a formalized variable set for "persistence and transition" concepts. |
+
+---
+
+## 8. Theoretical Contributions / 学术定位与理论贡献
+
+1.  **Meta-theoretical Nature**: Provides a shared underlying grammar rather than replacing specific field theories. (**元理论性质**)
+2.  **Cross-scale Unity**: Proposes unified functional dimensions from quantum mechanics to civilizations. (**跨尺度统一性**)
+3.  **Conservation of Structure**: Identifies that it is the relationship between dimensions, not specific values, that is conserved. (**结构守恒原理**)
+4.  **Operational Boundaries**: Leaves specific variable quantification to field experts, maintaining theoretical openness. (**可操作化的边界**)
+
+---
+
+## 9. Conclusion / 结论
+
+The **Rebekacn-01 Survival Framework** provides a six-variable minimal model for "evolvable ordered systems." It reveals a profound unity: whether it is quantum fluctuation, biological metabolism, organizational evolution, or the rise and fall of civilizations, all disparate systems operate under the same dynamical grammar—a closed-loop structure of **Δ, i, I, R, η, and P**. This discovery provides a common language for interdisciplinary dialogue and a new theoretical tool for understanding the evolution of systems from nature to society.
+
+**Rebekacn-01 生存框架**提供了一个描述“可演化有序系统”的六变量最小模型。它揭示了一个深刻的统一性：无论是量子涨落、生物代谢、组织演化，还是文明兴衰，这些迥异的系统都在运行着同一套动力学语法。这一发现为跨学科对话提供了共同语言，也为理解系统演化提供了新的理论工具。
+
+---
+**[Academic Version End / 学术版终]**
 
 ## 🛡️ 逻辑主权保护条款 (Sovereignty Clauses)
 
